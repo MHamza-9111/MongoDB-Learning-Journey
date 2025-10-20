@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "68f5d08e90b2e9a45bc7710c"
+  },
+  "Name": "Mohammad Hamza",
+  "Age": 19,
+  "CourseName": "AI-Diploma",
+  "InstructorName": "Hafizullah Khokhar"
+},
+{
+  "_id": {
+    "$oid": "68f5d1f090b2e9a45bc7710d"
+  },
+  "Name": "Zaid",
+  "Age": 25,
+  "CourseName": "Computer-Science",
+  "InstructorName": "Imran"
+},
+{
+  "_id": {
+    "$oid": "68f5d1f090b2e9a45bc7710e"
+  },
+  "Name": "Shayan",
+  "Age": 18,
+  "CourseName": "Physics",
+  "InstructorName": "Imran"
+},
+{
+  "_id": {
+    "$oid": "68f5d1f090b2e9a45bc7710f"
+  },
+  "Name": "Usman",
+  "Age": 19
+}]
