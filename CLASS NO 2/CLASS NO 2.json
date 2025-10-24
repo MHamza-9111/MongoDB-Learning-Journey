@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "68fa226e7b40c8cd6fd9a803"
+  },
+  "name": "Hamza",
+  "age": 20,
+  "address": {
+    "country": "Pakistan",
+    "city": "Karachi"
+  },
+  "hobbies": [
+    "coding",
+    "programming",
+    "invention"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68fa226e7b40c8cd6fd9a804"
+  },
+  "name": "Zaid",
+  "age": 20,
+  "address": {
+    "country": "USA",
+    "city": "Karachi"
+  },
+  "hobbies": [
+    "cricket",
+    "football",
+    "skating"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68fa226e7b40c8cd6fd9a806"
+  },
+  "name": "Basit",
+  "age": 25,
+  "address": {
+    "country": "Pakistan",
+    "city": "Punjab"
+  },
+  "hobbies": [
+    "baseball",
+    "tennis",
+    "badminton"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68fa27437b40c8cd6fd9a807"
+  },
+  "name": "Ayesha",
+  "age": 21,
+  "address": {
+    "country": "Pakistan",
+    "city": "Lahore"
+  },
+  "hobbies": [
+    "reading",
+    "music"
+  ]
+}]
