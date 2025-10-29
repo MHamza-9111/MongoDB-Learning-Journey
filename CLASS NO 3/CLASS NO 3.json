@@ -1,0 +1,117 @@
+[{
+  "_id": 1,
+  "name": "Smartphone X",
+  "price": 799,
+  "ratings": [
+    4,
+    5,
+    5,
+    3,
+    4
+  ],
+  "inStock": true,
+  "details": {
+    "color": "black",
+    "storage": "128GB",
+    "warranty": true
+  },
+  "tags": [
+    "electronics",
+    "mobile",
+    "new",
+    "bestseller"
+  ],
+  "createdAt": {
+    "$date": "2025-10-29T08:09:58.700Z"
+  },
+  "reviews": [
+    {
+      "user": "Ali",
+      "comment": "Great phone!",
+      "rating": 6
+    },
+    {
+      "user": "Sara",
+      "comment": "Good performance",
+      "rating": 4
+    }
+  ],
+  "lastUpdated": {
+    "$date": "2025-10-29T08:07:18.966Z"
+  }
+},
+{
+  "_id": 2,
+  "name": "Laptop Z",
+  "price": 1200,
+  "ratings": [
+    5,
+    5,
+    4
+  ],
+  "inStock": false,
+  "details": {
+    "color": "gray",
+    "storage": "512GB",
+    "warranty": false
+  },
+  "tags": [
+    "electronics",
+    "computer",
+    "work"
+  ],
+  "createdAt": {
+    "$date": "2025-10-29T08:09:58.700Z"
+  },
+  "reviews": [
+    {
+      "user": "John",
+      "comment": "Fast and reliable",
+      "rating": 5
+    },
+    {
+      "user": "Hamza",
+      "comment": "Battery could be better",
+      "rating": 4
+    }
+  ],
+  "lastUpdated": {
+    "$date": "2025-10-29T08:07:18.968Z"
+  }
+},
+{
+  "_id": 3,
+  "name": "Bluetooth Headphones",
+  "price": 199,
+  "ratings": [
+    3,
+    4
+  ],
+  "inStock": true,
+  "details": {
+    "color": "blue",
+    "warranty": true
+  },
+  "tags": [
+    "audio",
+    "electronics"
+  ],
+  "createdAt": {
+    "$date": "2025-10-29T08:09:58.700Z"
+  },
+  "reviews": [
+    {
+      "user": "Fatima",
+      "comment": "Comfortable fit",
+      "rating": 4
+    },
+    {
+      "user": "Omar",
+      "comment": "Average sound",
+      "rating": 3
+    }
+  ],
+  "lastUpdated": {
+    "$date": "2025-10-29T08:07:18.968Z"
+  }
+}]
