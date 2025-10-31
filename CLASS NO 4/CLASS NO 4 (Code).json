@@ -1,10 +1,56 @@
-db.cars.aggregate([
-  { $match: { price: { $gt: 25000 } } },
-  { $match: { "engine.type": "Electric" } },
-  { $project: { _id: 0, brand: 1, model: 1, price: 1, year: 1, mileage: 1, "engine.condition": 1 } },
-  { $addFields: { carName: { $concat: ["$brand", " ", "$model"] } } },
-  { $addFields: { oldPrice: { $subtract: ["$price", 2000] } } },
-  { $addFields: { kmPerYear: { $divide: ["$mileage", { $subtract: [2025, "$year"] }] } } },
-  { $addFields: { condition: "$engine.condition" } },
-  { $project: { brand: 1, model: 1, carName: 1, price: 1, oldPrice: 1, kmPerYear: 1, condition: 1 } }
-])
+[
+  {
+    "$match": {
+      "price": { "$gt": 25000 }
+    }
+  },
+  {
+    "$match": {
+      "engine.type": "Electric"
+    }
+  },
+  {
+    "$project": {
+      "_id": 0,
+      "brand": 1,
+      "model": 1,
+      "price": 1,
+      "year": 1,
+      "mileage": 1,
+      "engine.condition": 1
+    }
+  },
+  {
+    "$addFields": {
+      "carName": { "$concat": ["$brand", " ", "$model"] }
+    }
+  },
+  {
+    "$addFields": {
+      "oldPrice": { "$subtract": ["$price", 2000] }
+    }
+  },
+  {
+    "$addFields": {
+      "kmPerYear": {
+        "$divide": ["$mileage", { "$subtract": [2025, "$year"] }]
+      }
+    }
+  },
+  {
+    "$addFields": {
+      "condition": "$engine.condition"
+    }
+  },
+  {
+    "$project": {
+      "brand": 1,
+      "model": 1,
+      "carName": 1,
+      "price": 1,
+      "oldPrice": 1,
+      "kmPerYear": 1,
+      "condition": 1
+    }
+  }
+]
