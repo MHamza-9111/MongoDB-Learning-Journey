@@ -1,0 +1,18 @@
+[{
+  "brand": "Tesla",
+  "model": "Model 3",
+  "price": 55000,
+  "carName": "Tesla Model 3",
+  "oldPrice": 53000,
+  "kmPerYear": 3333.3333333333335,
+  "condition": "Excellent"
+},
+{
+  "brand": "Tesla",
+  "model": "Model S",
+  "price": 75000,
+  "carName": "Tesla Model S",
+  "oldPrice": 73000,
+  "kmPerYear": 1250,
+  "condition": "Excellent"
+}]
