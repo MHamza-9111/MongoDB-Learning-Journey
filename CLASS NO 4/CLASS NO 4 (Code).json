@@ -1,84 +1,10 @@
-[{
-  "_id": 1,
-  "brand": "Toyota",
-  "model": "Corolla",
-  "year": 2018,
-  "price": 25000,
-  "mileage": 45000,
-  "engine": {
-    "type": "Petrol",
-    "condition": "Good"
-  }
-},
-{
-  "_id": 2,
-  "brand": "Honda",
-  "model": "Civic",
-  "year": 2020,
-  "price": 30000,
-  "mileage": 32000,
-  "engine": {
-    "type": "Hybrid",
-    "condition": "Excellent"
-  }
-},
-{
-  "_id": 3,
-  "brand": "Suzuki",
-  "model": "Alto",
-  "year": 2017,
-  "price": 12000,
-  "mileage": 60000,
-  "engine": {
-    "type": "Petrol",
-    "condition": "Average"
-  }
-},
-{
-  "_id": 4,
-  "brand": "Tesla",
-  "model": "Model 3",
-  "year": 2022,
-  "price": 55000,
-  "mileage": 10000,
-  "engine": {
-    "type": "Electric",
-    "condition": "Excellent"
-  }
-},
-{
-  "_id": 5,
-  "brand": "Toyota",
-  "model": "Yaris",
-  "year": 2019,
-  "price": 22000,
-  "mileage": 38000,
-  "engine": {
-    "type": "Petrol",
-    "condition": "Good"
-  }
-},
-{
-  "_id": 6,
-  "brand": "Honda",
-  "model": "City",
-  "year": 2016,
-  "price": 18000,
-  "mileage": 72000,
-  "engine": {
-    "type": "Petrol",
-    "condition": "Average"
-  }
-},
-{
-  "_id": 7,
-  "brand": "Tesla",
-  "model": "Model S",
-  "year": 2021,
-  "price": 75000,
-  "mileage": 5000,
-  "engine": {
-    "type": "Electric",
-    "condition": "Excellent"
-  }
-}]
+db.cars.aggregate([
+  { $match: { price: { $gt: 25000 } } },
+  { $match: { "engine.type": "Electric" } },
+  { $project: { _id: 0, brand: 1, model: 1, price: 1, year: 1, mileage: 1, "engine.condition": 1 } },
+  { $addFields: { carName: { $concat: ["$brand", " ", "$model"] } } },
+  { $addFields: { oldPrice: { $subtract: ["$price", 2000] } } },
+  { $addFields: { kmPerYear: { $divide: ["$mileage", { $subtract: [2025, "$year"] }] } } },
+  { $addFields: { condition: "$engine.condition" } },
+  { $project: { brand: 1, model: 1, carName: 1, price: 1, oldPrice: 1, kmPerYear: 1, condition: 1 } }
+])
