@@ -1,0 +1,80 @@
+[{
+  "_id": 1,
+  "name": "Ali Khan",
+  "age": 28,
+  "department": "Sales",
+  "city": "Lahore",
+  "salary": 55000,
+  "performance": {
+    "q1": 78,
+    "q2": 82,
+    "q3": 74,
+    "q4": 90
+  },
+  "isPermanent": true,
+  "joinYear": 2021
+},
+{
+  "_id": 2,
+  "name": "Fatima Noor",
+  "age": 32,
+  "department": "HR",
+  "city": "Karachi",
+  "salary": 48000,
+  "performance": {
+    "q1": 88,
+    "q2": 91,
+    "q3": 85,
+    "q4": 89
+  },
+  "isPermanent": true,
+  "joinYear": 2019
+},
+{
+  "_id": 3,
+  "name": "Hamza Mughal",
+  "age": 24,
+  "department": "IT",
+  "city": "Lahore",
+  "salary": 65000,
+  "performance": {
+    "q1": 92,
+    "q2": 87,
+    "q3": 90,
+    "q4": 95
+  },
+  "isPermanent": false,
+  "joinYear": 2023
+},
+{
+  "_id": 4,
+  "name": "Sara Malik",
+  "age": 30,
+  "department": "Finance",
+  "city": "Islamabad",
+  "salary": 72000,
+  "performance": {
+    "q1": 80,
+    "q2": 78,
+    "q3": 75,
+    "q4": 83
+  },
+  "isPermanent": true,
+  "joinYear": 2020
+},
+{
+  "_id": 5,
+  "name": "Bilal Ahmed",
+  "age": 26,
+  "department": "Sales",
+  "city": "Multan",
+  "salary": 47000,
+  "performance": {
+    "q1": 60,
+    "q2": 65,
+    "q3": 62,
+    "q4": 70
+  },
+  "isPermanent": false,
+  "joinYear": 2022
+}]
