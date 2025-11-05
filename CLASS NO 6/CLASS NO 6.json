@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "690ae788d540564387f320f1"
+  },
+  "name": "Ali Khan",
+  "age": 22,
+  "city": "Lahore",
+  "courses": "C2",
+  "Enrollments": {
+    "_id": "C2",
+    "title": "Database Systems",
+    "instructor": "Sir Imran",
+    "duration": 2
+  }
+},
+{
+  "_id": {
+    "$oid": "690ae788d540564387f320f2"
+  },
+  "name": "Ali Khan",
+  "age": 22,
+  "city": "Lahore",
+  "courses": "C3",
+  "Enrollments": {
+    "_id": "C3",
+    "title": "UI/UX Design",
+    "instructor": "Miss Ayesha",
+    "duration": 1
+  }
+},
+{
+  "_id": {
+    "$oid": "690ae788d540564387f320f3"
+  },
+  "name": "Sana Malik",
+  "age": 21,
+  "city": "Lahore",
+  "courses": "C3",
+  "Enrollments": {
+    "_id": "C3",
+    "title": "UI/UX Design",
+    "instructor": "Miss Ayesha",
+    "duration": 1
+  }
+}]
