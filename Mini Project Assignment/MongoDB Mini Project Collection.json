@@ -1,0 +1,117 @@
+[{
+  "_id": {
+    "$oid": "691358ecb0920355a453a649"
+  },
+  "title": "The Silent Patient",
+  "author": {
+    "name": "Alex Michaelides",
+    "nationality": "Cyprus"
+  },
+  "genre": [
+    "Thriller",
+    "Mystery"
+  ],
+  "pages": 336,
+  "price": 1400,
+  "available": true,
+  "published_year": 2019,
+  "ratings": [
+    4.4,
+    4.2,
+    4.8
+  ]
+},
+{
+  "_id": {
+    "$oid": "691358ecb0920355a453a64a"
+  },
+  "title": "Atomic Habits",
+  "author": {
+    "name": "James Clear",
+    "nationality": "USA"
+  },
+  "genre": [
+    "Self-Help",
+    "Motivation"
+  ],
+  "pages": 320,
+  "price": 1800,
+  "available": true,
+  "published_year": 2018,
+  "ratings": [
+    4.9,
+    4.7,
+    5,
+    4.8
+  ]
+},
+{
+  "_id": {
+    "$oid": "691358ecb0920355a453a64b"
+  },
+  "title": "Rich Dad Poor Dad",
+  "author": {
+    "name": "Robert Kiyosaki",
+    "nationality": "USA"
+  },
+  "genre": [
+    "Finance",
+    "Education"
+  ],
+  "pages": 195,
+  "price": 1200,
+  "available": false,
+  "published_year": 1997,
+  "ratings": [
+    4.3,
+    4,
+    4.5
+  ]
+},
+{
+  "_id": {
+    "$oid": "691358ecb0920355a453a64c"
+  },
+  "title": "Harry Potter and the Philosopher's Stone",
+  "author": {
+    "name": "J.K. Rowling",
+    "nationality": "UK"
+  },
+  "genre": [
+    "Fantasy",
+    "Adventure"
+  ],
+  "pages": 223,
+  "price": 1500,
+  "available": true,
+  "published_year": 1997,
+  "ratings": [
+    5,
+    4.9,
+    5,
+    4.8
+  ]
+},
+{
+  "_id": {
+    "$oid": "691358ecb0920355a453a64d"
+  },
+  "title": "Think Like a Monk",
+  "author": {
+    "name": "Jay Shetty",
+    "nationality": "UK"
+  },
+  "genre": [
+    "Self-Help",
+    "Spiritual"
+  ],
+  "pages": 320,
+  "price": 2000,
+  "available": true,
+  "published_year": 2020,
+  "ratings": [
+    4.5,
+    4.7,
+    4.2
+  ]
+}]
